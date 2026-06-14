@@ -1,4 +1,4 @@
-# Hand Gesture Recognition System
+# Real-time Hand Gesture Recognition using OpenCV and Machine Learning for gesture classification.
 
 ## SkillCraft Technology Internship - Task 1
 
