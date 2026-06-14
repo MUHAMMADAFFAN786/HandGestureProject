@@ -1,124 +1,124 @@
-# Hand Gesture Recognition System
+# House Price Prediction using Linear Regression
+
+## SkillCraft Technology Internship - Task 1
 
 ### Project Overview
 
-This project is a **real-time Hand Gesture Recognition System** developed as part of **Task 1** during my internship at **SkillCraft Technology**. The system uses **Machine Learning** and **Computer Vision** techniques to identify and classify different hand gestures through a webcam feed.
+This project focuses on predicting house prices using the **Linear Regression** algorithm. The model estimates the price of a house based on key features such as **square footage**, **number of bedrooms**, and **number of bathrooms**.
 
-The goal of this project is to enable intuitive **human-computer interaction** using gesture-based control systems.
+The project was developed as part of **Task 2** during my internship at **SkillCraft Technology**.
 
 ---
 
 ## Features
 
-* Real-time hand gesture recognition using a webcam
-* Machine Learning based gesture classification
-* Custom-trained gesture recognition model
-* User-friendly implementation
-* Supports multiple predefined hand gestures
+* Predicts house prices using Linear Regression
+* Data preprocessing and feature selection
+* Model training and evaluation
+* Visualization of Actual vs Predicted house prices
+* User-friendly implementation using Python
 
 ---
 
 ## Technologies Used
 
 * Python
-* OpenCV
-* NumPy
+* Pandas
 * Scikit-learn
-* Joblib
-* Git & GitHub
+* Matplotlib
+* NumPy
 
 ---
 
 ## Project Structure
 
-```
-HandGestureProject/
+```text
+House-Price-Prediction/
 │
-├── train.py
-├── predict.py
-├── gesture_model.pkl
+├── house_price_dataset.csv
+├── main.py
 ├── README.md
-└── dataset/
+└── requirements.txt
 ```
 
 ---
 
 ## Dataset
 
-The project uses the **LeapGestRecog** dataset for training and testing the machine learning model.
+The dataset contains the following features:
 
-Recognized gestures include:
+* Square Footage
+* Number of Bedrooms
+* Number of Bathrooms
+* House Price (Target Variable)
 
-* Palm
-* L
-* Fist
-* Fist Moved
-* Thumb
-* Index
-* OK
-* Palm Moved
-* C
-* Down
+These features are used to train the Linear Regression model to predict housing prices accurately.
 
 ---
 
 ## Installation
 
-### Clone the repository
+### Clone the Repository
 
 ```bash
-git clone https://github.com/MUHAMMADAFFAN786/HandGestureProject.git
+git clone https://github.com/YOUR_USERNAME/House-Price-Prediction.git
 ```
 
-### Navigate to the project directory
+### Navigate to the Project Directory
 
 ```bash
-cd HandGestureProject
+cd House-Price-Prediction
 ```
 
-### Install required libraries
+### Install Required Libraries
 
 ```bash
-pip install opencv-python numpy scikit-learn joblib
+pip install -r requirements.txt
 ```
 
 ---
 
-## Training the Model
+## Run the Project
 
-Run the following command to train the model:
+Execute the following command:
 
 ```bash
-python train.py
+python main.py
 ```
-
-After successful training, the model file `gesture_model.pkl` will be generated.
 
 ---
 
-## Running the Project
+## Output
 
-To start real-time gesture recognition:
+The project provides:
 
-```bash
-python predict.py
-```
-
-Press **Q** to close the webcam window.
+* Predicted House Prices
+* Actual vs Predicted Price Comparison
+* Visualization Graphs for Model Performance
 
 ---
 
 ## Learning Outcomes
 
-Through this project, I gained hands-on experience in:
+Through this project, I gained practical experience in:
 
-* Machine Learning model development
-* Computer Vision applications
-* Real-time image processing
-* Python programming
-* Git and GitHub version control
+* Data Analysis and Preprocessing
+* Machine Learning with Scikit-learn
+* Linear Regression Modeling
+* Model Evaluation Techniques
+* Data Visualization using Matplotlib
+* Version Control with Git and GitHub
 
 ---
+
+## Internship Information
+
+**Internship Provider:** SkillCraft Technology
+
+**Task:** Task 2 – House Price Prediction using Linear Regression
+
+---
+
 ## Author
 
 **Muhammad Affan**
@@ -126,3 +126,9 @@ Through this project, I gained hands-on experience in:
 GitHub: https://github.com/MUHAMMADAFFAN786
 
 LinkedIn: [www.linkedin.com/in/muhammad-affan-49a127368](http://www.linkedin.com/in/muhammad-affan-49a127368)
+
+---
+
+## Acknowledgements
+
+I would like to thank **SkillCraft Technology** for providing this valuable opportunity to enhance my practical knowledge in **Machine Learning and Data Analysis**.
